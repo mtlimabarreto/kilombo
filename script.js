@@ -1,5 +1,5 @@
 // >>> TROQUE AQUI pelo seu número, com 55 + DDD + número, só dígitos. Ex.: 5574999999999
-var WHATSAPP = "5574000000000";
+var WHATSAPP = "5574999528730";
 document.getElementById("wa-link").href = "https://wa.me/" + WHATSAPP;
 
 /* Modo dia / noite: respeita a escolha salva; sem escolha, segue o aparelho */

@@ -42,7 +42,7 @@
         <a class="btn line" href="#projeto">Conhecer o projeto</a>
       </div>
       <div class="swatches mono">
-        <span class="sw"><b style="background:#e65100"></b>FF0080</span>
+        <span class="sw"><b style="background:#e65100"></b>E65100</span>
         <span class="sw"><b style="background:#9900ff"></b>9900FF</span>
         <span class="sw"><b style="background:#59ff00"></b>59FF00</span>
       </div>
@@ -72,13 +72,23 @@
       <span class="kicker mono">/ 02 — Cursos</span>
       <h2>O que pretendemos ensinar</h2>
       <p class="sub">A grade será definida a partir da demanda real da comunidade, por isso sua resposta no formulário abaixo importa.</p>
-      <div class="cols3">
+      <div class="cols3 cursos">
         <div class="col"><span class="n">&gt;_</span><h3>Informática</h3><p>Do básico ao avançado: computador, internet, pacote de escritório e segurança digital.</p></div>
         <div class="col"><span class="n">&lt;/&gt;</span><h3>Programação</h3><p>Lógica, criação de sites e primeiros sistemas.</p></div>
         <div class="col"><span class="n">▣</span><h3>Design gráfico</h3><p>Identidade visual, materiais para associações e pequenos negócios.</p></div>
         <div class="col"><span class="n">⚙</span><h3>Robótica educacional</h3><p>Eletrônica e Arduino para aprender criando.</p></div>
         <div class="col"><span class="n">✿</span><h3>Agro 4.0</h3><p>Tecnologias aplicadas ao trabalho no campo.</p></div>
         <div class="col hl"><span class="n">+</span><h3>Apoio a professores e associações</h3><p>Formação e suporte digital para quem já atua na educação e na organização da comunidade.</p></div>
+        <div class="col bncc">
+          <span class="n">BNCC</span>
+          <h3>Uma grade em diálogo com a BNCC Computação</h3>
+          <p>Nossa grade dialoga com a BNCC Computação (Resolução CNE/CEB nº 1/2022) e com as diretrizes de Educação Digital e Midiática (Resolução CNE/CEB nº 2/2025). Cada oficina é pensada para desenvolver habilidades dos três eixos, adaptadas à realidade das comunidades quilombolas e rurais do sertão baiano.</p>
+          <ul class="eixos">
+            <li><b>Pensamento Computacional</b><span>lógica, algoritmos e resolução de problemas</span></li>
+            <li><b>Mundo Digital</b><span>hardware, software, redes e inteligência artificial</span></li>
+            <li><b>Cultura Digital</b><span>práticas sociais e éticas mediadas pela tecnologia</span></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -102,7 +112,7 @@
       <div>
         <span class="kicker mono">/ 04 — Quem faz</span>
         <h2>Quem está por trás</h2>
-        <p>O Kilombo Tech é idealizado por <strong>Matheus</strong>, professor de informática da rede municipal, nascido e criado em comunidade quilombola. Ele conhece de perto a falta de oportunidades que o projeto quer mudar.</p>
+        <p>O Kilombo Tech é idealizado por <strong>Matheus</strong>, estudante de Análise e Desenvolvimento de Sistemas e Engenharia de Software, professor de informática da rede municipal, nascido e criado em comunidade quilombola. Ele conhece de perto a falta de oportunidades que o projeto quer mudar.</p>
         <p>O projeto participa do <strong>Impulsiona Irecê</strong>, com mentorias e consultorias para estruturar a iniciativa, e segue em diálogo com a secretaria de educação.</p>
       </div>
       <div class="quote">Uma escola de tecnologia que ensina do básico à robótica e transforma alunos em prestadores de serviço.</div>
@@ -110,7 +120,7 @@
   </section>
 
   <section id="participe">
-    <div class="px" data-c="##e65100" data-cols="8" data-rows="8" data-seed="44" data-corner="tr" style="right:0;top:0;width:min(24vw,240px);aspect-ratio:1"></div>
+    <div class="px" data-c="#e65100" data-cols="8" data-rows="8" data-seed="44" data-corner="tr" style="right:0;top:0;width:min(24vw,240px);aspect-ratio:1"></div>
     <div class="wrap">
       <span class="kicker mono">/ 05 — Participe</span>
       <h2>Participe da construção</h2>
@@ -232,8 +242,6 @@
               <label><input type="checkbox" value="Inteligência artificial para planejar aulas"> Usar inteligência artificial para planejar aulas</label>
               <label><input type="checkbox" value="Vídeos e áudios curtos para as aulas"> Gravar vídeos e áudios curtos para as aulas</label>
             </div>
-
-           
 
             <label class="lbl" for="p-tempo">Quanto tempo você consegue separar?</label>
             <select id="p-tempo" data-label="Tempo disponível">
